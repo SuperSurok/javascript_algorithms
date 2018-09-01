@@ -29,8 +29,11 @@
       <file leaf-file-name="harmless_ranson_note.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/harmless_ranson_note.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="70" column="72" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+            <state relative-caret-position="376">
+              <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,7 +136,7 @@
       <updated>1535658344130</updated>
       <workItem from="1535658346567" duration="876000" />
       <workItem from="1535745496464" duration="2320000" />
-      <workItem from="1535822515403" duration="626000" />
+      <workItem from="1535822515403" duration="2966000" />
     </task>
     <task id="LOCAL-00001" summary="Fix FizzBuzz">
       <created>1535746388794</created>
@@ -149,11 +152,25 @@
       <option name="project" value="LOCAL" />
       <updated>1535748178995</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Harmless Ransom Note - Part 1">
+      <created>1535823257221</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535823257221</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Harmless Ransom Note - Part 2">
+      <created>1535824100421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535824100421</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3822000" />
+    <option name="totallyTimeSpent" value="6162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1348" extended-state="0" />
@@ -164,7 +181,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15107913" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34292567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32871974" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -188,7 +205,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix FizzBuzz" />
     <MESSAGE value="Time and Big O Notation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Time and Big O Notation" />
+    <MESSAGE value="Harmless Ransom Note - Part 1" />
+    <MESSAGE value="Harmless Ransom Note - Part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Harmless Ransom Note - Part 2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fizz_buzz.js">
@@ -202,6 +221,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -221,8 +243,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/harmless_ranson_note.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="70" column="72" selection-start-line="70" selection-start-column="72" selection-end-line="70" selection-end-column="72" />
+        <state relative-caret-position="376">
+          <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
