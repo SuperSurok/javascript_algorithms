@@ -57,25 +57,47 @@
 // };
 
 const harmlessRansomNote = (noteText, magazineText) => {
+    // split both string parameters into arrays
     let noteArr = noteText.split(' ');
     let magazineArr = magazineText.split(' ');
+
+    // create an object to use a hash table it also avoids
+    // exponential time complexity of nested loops
     let magazineObj = {};
 
+    // forEach to check if word is an word is an object on our property
     magazineArr.forEach(word => {
-        if (!magazineObj[word]) magazineObj[word] = 0;
-        magazineObj[word]++;
+        // if not we add it to our object increment the value
+        if (!magazineObj[word]) {
+            magazineObj[word] = 0;
+        } else {
+            // otherwise, if it is there we just increment the value
+            magazineObj[word]++;
+        }
     });
 
+    // Boolean variable to be return from function
     let noteIsPossible = true;
+
+    // Use forEach to iterate through each word
     noteArr.forEach(word => {
+        // if word is found on the object decrement it
         if (magazineObj[word]) {
             magazineObj[word]--;
-            if (magazineObj[word] < 0) noteIsPossible = false;
+            // if word value < 0 cant't make word so note is NOT possible
+            if (magazineObj[word] < 0) {
+                noteIsPossible = false;
+            }
+            // if word is not found then note NOT possible
+        } else {
+            noteIsPossible = false;
         }
-        else noteIsPossible = false;
     });
     return noteIsPossible;
 };
+
+// Time Complexity: Since these loops are NOT nested we have a linear time complexity of O(n)
+
 
 harmlessRansomNote('this is a secret note for you form a secret admirer', 'puerto ' +
     'rico is a place of great wonder and excitement it has many secret ' +
