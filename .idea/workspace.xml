@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9371ae3-758c-4859-90a5-6a2093470274" name="Default" comment="">
+    <list default="true" id="e9371ae3-758c-4859-90a5-6a2093470274" name="Default" comment="Added comment to Harmless Ransom Note">
+      <change afterPath="$PROJECT_DIR$/palindrome.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/harmless_ranson_note.js" beforeDir="false" afterPath="$PROJECT_DIR$/harmless_ranson_note.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,14 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="harmless_ranson_note.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="harmless_ranson_note.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/harmless_ranson_note.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="85" column="32" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+            <state relative-caret-position="862">
+              <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="palindrome.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/palindrome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -49,12 +58,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/fizz_buzz.js" />
         <option value="$PROJECT_DIR$/harmless_ranson_note.js" />
+        <option value="$PROJECT_DIR$/palindrome.js" />
       </list>
     </option>
   </component>
@@ -110,15 +125,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.harmless_ranson_note.js">
+  <component name="RunManager" selected="Node.js.palindrome.js">
     <configuration name="fizz_buzz.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="fizz_buzz.js" working-dir="$PROJECT_DIR$" />
     <configuration name="harmless_ranson_note.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="harmless_ranson_note.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="palindrome.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="palindrome.js" working-dir="$PROJECT_DIR$" />
     <list>
       <item itemvalue="Node.js.fizz_buzz.js" />
       <item itemvalue="Node.js.harmless_ranson_note.js" />
+      <item itemvalue="Node.js.palindrome.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.palindrome.js" />
         <item itemvalue="Node.js.harmless_ranson_note.js" />
         <item itemvalue="Node.js.fizz_buzz.js" />
       </list>
@@ -137,7 +155,8 @@
       <workItem from="1535658346567" duration="876000" />
       <workItem from="1535745496464" duration="2320000" />
       <workItem from="1535822515403" duration="3134000" />
-      <workItem from="1535874432805" duration="1462000" />
+      <workItem from="1535874432805" duration="2104000" />
+      <workItem from="1536002725707" duration="1275000" />
     </task>
     <task id="LOCAL-00001" summary="Fix FizzBuzz">
       <created>1535746388794</created>
@@ -174,11 +193,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535825568970</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added comment to Harmless Ransom Note">
+      <created>1535875932349</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535875932349</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7792000" />
+    <option name="totallyTimeSpent" value="9709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1348" extended-state="0" />
@@ -189,7 +215,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34292567" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34292567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32871974" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -216,9 +242,27 @@
     <MESSAGE value="Harmless Ransom Note - Part 1" />
     <MESSAGE value="Harmless Ransom Note - Part 2" />
     <MESSAGE value="Harmless Ransom Note - Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Harmless Ransom Note - Testing" />
+    <MESSAGE value="Added comment to Harmless Ransom Note" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added comment to Harmless Ransom Note" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fizz_buzz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/harmless_ranson_note.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="95" column="25" lean-forward="true" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fizz_buzz.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -269,11 +313,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/harmless_ranson_note.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="85" column="32" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+        <state relative-caret-position="862">
+          <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/palindrome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
         </state>
       </provider>
     </entry>
