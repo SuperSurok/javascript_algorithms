@@ -5,7 +5,7 @@ const caesarCipher = (string, num) => {
     let newString = '';
 
     for (let i = 0; i < lowerCaseString.length; i++) {
-        var currentLetter = lowerCaseString[i];
+        let currentLetter = lowerCaseString[i];
         if (currentLetter === ' ') {
             newString += currentLetter;
             continue;
@@ -23,3 +23,7 @@ const caesarCipher = (string, num) => {
     }
     return newString;
 };
+
+console.log(caesarCipher('Zoo Keeper', 2)); // Bqq Mggrgt
+console.log(caesarCipher('Big Car', -16)); // Lsq MKb
+console.log(caesarCipher('JavaScript', -900)); // Tkfkcmbszd

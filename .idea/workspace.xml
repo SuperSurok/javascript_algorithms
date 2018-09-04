@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9371ae3-758c-4859-90a5-6a2093470274" name="Default" comment="Added comment to Harmless Ransom Note">
-      <change afterPath="$PROJECT_DIR$/caesar_cipher.js" afterDir="false" />
+    <list default="true" id="e9371ae3-758c-4859-90a5-6a2093470274" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caesar_cipher.js" beforeDir="false" afterPath="$PROJECT_DIR$/caesar_cipher.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="caesar_cipher.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/caesar_cipher.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="532">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -140,7 +140,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.palindrome.js">
+  <component name="RunManager" selected="Node.js.caesar_cipher.js">
+    <configuration name="caesar_cipher.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="caesar_cipher.js" working-dir="$PROJECT_DIR$" />
     <configuration name="fizz_buzz.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="fizz_buzz.js" working-dir="$PROJECT_DIR$" />
     <configuration name="harmless_ranson_note.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="harmless_ranson_note.js" working-dir="$PROJECT_DIR$" />
     <configuration name="palindrome.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="palindrome.js" working-dir="$PROJECT_DIR$" />
@@ -148,9 +149,11 @@
       <item itemvalue="Node.js.fizz_buzz.js" />
       <item itemvalue="Node.js.harmless_ranson_note.js" />
       <item itemvalue="Node.js.palindrome.js" />
+      <item itemvalue="Node.js.caesar_cipher.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.caesar_cipher.js" />
         <item itemvalue="Node.js.palindrome.js" />
         <item itemvalue="Node.js.harmless_ranson_note.js" />
         <item itemvalue="Node.js.fizz_buzz.js" />
@@ -172,7 +175,7 @@
       <workItem from="1535822515403" duration="3134000" />
       <workItem from="1535874432805" duration="2104000" />
       <workItem from="1536002725707" duration="1275000" />
-      <workItem from="1536090261032" duration="1073000" />
+      <workItem from="1536090261032" duration="1573000" />
     </task>
     <task id="LOCAL-00001" summary="Fix FizzBuzz">
       <created>1535746388794</created>
@@ -216,22 +219,29 @@
       <option name="project" value="LOCAL" />
       <updated>1535875932349</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Create Caesar Cipher algorithm.">
+      <created>1536091637860</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536091637860</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11767000" />
+    <option name="totallyTimeSpent" value="12267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1348" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34292567" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34292567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32871974" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -259,7 +269,8 @@
     <MESSAGE value="Harmless Ransom Note - Part 2" />
     <MESSAGE value="Harmless Ransom Note - Testing" />
     <MESSAGE value="Added comment to Harmless Ransom Note" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comment to Harmless Ransom Note" />
+    <MESSAGE value="Create Caesar Cipher algorithm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Caesar Cipher algorithm." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fizz_buzz.js">
@@ -510,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/caesar_cipher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="532">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
         </state>
       </provider>
     </entry>
