@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e9371ae3-758c-4859-90a5-6a2093470274" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mean_median_mode.js" beforeDir="false" afterPath="$PROJECT_DIR$/mean_median_mode.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,6 +17,7 @@
     <session id="-978712227">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -55,20 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/palindrome.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
               <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mean_median_mode.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
-              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -169,14 +160,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.mean_median_mode.js">
+  <component name="RunManager" selected="Node.js.fibonacci.js">
     <configuration name="caesar_cipher.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="caesar_cipher.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="mean_median_mode.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="mean_median_mode.js" working-dir="$PROJECT_DIR$">
+    <configuration name="fibonacci.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="fibonacci.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="palindrome.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="palindrome.js" working-dir="$PROJECT_DIR$">
+    <configuration name="mean_median_mode.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="mean_median_mode.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="reverse_array.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="reverse_array.js" working-dir="$PROJECT_DIR$">
@@ -186,19 +177,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.palindrome.js" />
       <item itemvalue="Node.js.caesar_cipher.js" />
       <item itemvalue="Node.js.reverse_words.js" />
       <item itemvalue="Node.js.reverse_array.js" />
       <item itemvalue="Node.js.mean_median_mode.js" />
+      <item itemvalue="Node.js.fibonacci.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.fibonacci.js" />
         <item itemvalue="Node.js.mean_median_mode.js" />
         <item itemvalue="Node.js.reverse_array.js" />
         <item itemvalue="Node.js.reverse_words.js" />
         <item itemvalue="Node.js.caesar_cipher.js" />
-        <item itemvalue="Node.js.palindrome.js" />
       </list>
     </recent_temporary>
   </component>
@@ -278,28 +269,35 @@
       <option name="project" value="LOCAL" />
       <updated>1536177357405</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Mean Median Mode algorithm. Part 2.">
+      <created>1536525783060</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1536525783060</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18569000" />
+    <option name="totallyTimeSpent" value="18605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="1348" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34292567" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34235668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3280255" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3280255" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32933652" />
